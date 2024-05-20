@@ -1,0 +1,51 @@
+body {
+    background-image: url('./fondopoke.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: inherit;
+    color: white; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    text-align: center; /* Centrar texto */
+    padding: 10px;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;    
+}
+
+h1, h3 {
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+}
+.btn-1 {
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    transition: .2s;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    ; /* Asegura que esté por encima de la imagen de fondo */
+}
+
+
+
+img {
+    width: 200px;
+}
