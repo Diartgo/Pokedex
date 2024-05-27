@@ -1,5 +1,3 @@
-if (window.location.pathname === '/index.html' || window.location.pathname === '/index/') 
-    {
 const listaPokemon = document.querySelector("#listaPokemon");
 const botonesHeader = document.querySelectorAll(".btn-header");
 const inputBuscar = document.getElementById('buscarPokemon');
@@ -102,11 +100,3 @@ botonesHeader.forEach(boton => boton.addEventListener("click", (event) => {
     }
 
 }))
-} else if (window.location.pathname === '/portada.html' || window.location.pathname === '/portada/') {
-    document.addEventListener('DOMContentLoaded', function() {
-        const botonAtrapalos = document.querySelector('.btn-1');
-        botonAtrapalos.addEventListener('click', function() {
-            window.location.href = 'index.html'; // Redirigir al usuario a la página principal
-        });
-    });
-}

@@ -55,12 +55,23 @@ header {
 
 .nav {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
     align-items: flex-start;
     padding-inline: 2rem;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.resultadoBusqueda{
+    display: flex;
 }
 
 .nav-list {
